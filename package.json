@@ -1,0 +1,26 @@
+{
+  "name": "json-formatter-cli",
+  "version": "1.0.1",
+  "description": "A Command Line tool to format JSON",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UltiRequiem/json-formatter.git"
+  },
+  "bin": {
+    "jason": "./bin/jason"
+  },
+  "keywords": [
+    "json",
+    "formatter",
+    "format",
+    "cli",
+    "terminal"
+  ],
+  "author": "Eliaz Bobadilla <eliaz.bobadilladev@gmail.com> (https://github.com/UltiRequiem)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/UltiRequiem/json-formatter/issues"
+  },
+  "homepage": "https://github.com/UltiRequiem/json-formatter#readme"
+}
