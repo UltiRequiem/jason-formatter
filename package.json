@@ -1,6 +1,6 @@
 {
   "name": "jason-formatter",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "A Command Line tool to format JSON",
   "main": "src/index.js",
   "repository": {
@@ -30,10 +30,8 @@
     "eslint-plugin": "^1.0.1",
     "eslint-plugin-import": "^2.23.4",
     "prettier": "^2.3.2",
-    "prettier-plugin-jsdoc": "^0.3.23"
-  },
-  "dependencies": {
     "eslint-plugin-prettier": "^3.4.0",
-    "prettier-eslint": "^12.0.0"
+    "prettier-eslint": "^12.0.0",
+    "prettier-plugin-jsdoc": "^0.3.23"
   }
 }

@@ -1,6 +1,6 @@
 # Jason
 
-A command line tool to format JSON.
+A command line tool to format JSON, zero dependencies.
 
 ![Cover](./assets/cover.png)
 
@@ -22,10 +22,10 @@ You can also import it in your code:
 
 ```javascript
 // Good Old require
-const { format } = require("jason-formatter");
+const { format } = require('jason-formatter');
 
 // New Syntax
-import { format } from "jason-formatter";
+import { format } from 'jason-formatter';
 ```
 
 You can see an example of use in [test/formatter.js](./tests/formater.js).
