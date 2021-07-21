@@ -1,6 +1,6 @@
 # Jason
 
-A command line tool to format JSON, zero dependencies.
+A Command Line tformatter for JSON files, zero dependencies.
 
 ![Cover](./assets/cover.png)
 
