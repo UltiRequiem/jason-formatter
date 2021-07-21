@@ -1,4 +1,4 @@
-const { format } = require("../src/index");
+const { format } = require('../src/index');
 
 const rawData = `
 {
