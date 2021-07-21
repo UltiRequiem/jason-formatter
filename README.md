@@ -18,6 +18,12 @@ Now you can use it anywhere on your system:
 jason config.json
 ```
 
+By default 2 tabs are used, but you can also specify how many tabs you want:
+
+```bash
+jason config.json 4
+```
+
 You can also import it in your code:
 
 ```javascript
@@ -26,6 +32,8 @@ const { format } = require('jason-formatter');
 
 // New Syntax
 import { format } from 'jason-formatter';
+
+console.log(format(rawData, { tabs: 2 }));
 ```
 
 You can see an example of use in [test/formatter.js](./tests/formater.js).
