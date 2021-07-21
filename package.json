@@ -1,5 +1,5 @@
 {
-  "name": "json-formatter-cli",
+  "name": "jason-formatter",
   "version": "1.0.1",
   "description": "A Command Line tool to format JSON",
   "main": "src/index.js",
