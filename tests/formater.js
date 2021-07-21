@@ -30,4 +30,4 @@ const rawData = `
 }`;
 
 // Nice :D
-console.log(format(rawData));
+console.log(format(rawData, { tabs: 2 }));
