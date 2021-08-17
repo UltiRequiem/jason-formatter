@@ -18,6 +18,12 @@ To be able to use it in your entire system you have to install globally:
 npm i -g jason-formatter
 ```
 
+If you use yarn:
+
+```bash
+yarn global add jason-formatter
+```
+
 Now you can use it anywhere on your system:
 
 ```bash
