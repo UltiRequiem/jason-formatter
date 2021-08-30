@@ -1,4 +1,4 @@
-const { format } = require('../src/index');
+const format = require('../src')
 
 const rawData = `
 {
@@ -27,7 +27,6 @@ const rawData = `
 
       "sfw":false
    }
-}`;
+}`
 
-// Nice :D
-console.log(format(rawData, { tabs: 2 }));
+console.log(format(rawData, { tabs: 2 }))

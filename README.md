@@ -10,19 +10,21 @@ A Command Line formatter for JSON files, zero dependencies.
 
 ![Cover](./assets/cover.png)
 
-## Installation and Usage
+## Installation
 
 To be able to use it in your entire system you have to install globally:
 
 ```bash
-npm i -g cli.js-formatter
+npm i -g jason
 ```
 
 If you use yarn:
 
 ```bash
-yarn global add cli.js-formatter
+yarn global add jason
 ```
+
+## Usage
 
 Now you can use it anywhere on your system:
 
@@ -30,7 +32,7 @@ Now you can use it anywhere on your system:
 jason config.json
 ```
 
-By default 2 tabs are used, but you can also specify how many tabs you want:
+By default, 2 tabs are used, but you can also specify how many tabs you want:
 
 ```bash
 jason config.json 4
