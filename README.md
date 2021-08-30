@@ -15,13 +15,13 @@ A Command Line formatter for JSON files, zero dependencies.
 To be able to use it in your entire system you have to install globally:
 
 ```bash
-npm i -g jason-formatter
+npm i -g cli.js-formatter
 ```
 
 If you use yarn:
 
 ```bash
-yarn global add jason-formatter
+yarn global add cli.js-formatter
 ```
 
 Now you can use it anywhere on your system:
@@ -39,11 +39,7 @@ jason config.json 4
 You can also import it in your code:
 
 ```javascript
-// Good Old require
-const { format } = require('jason-formatter');
-
-// New Syntax
-import { format } from 'jason-formatter';
+const format  = require('jason-formatter');
 
 console.log(format(rawData, { tabs: 2 }));
 ```

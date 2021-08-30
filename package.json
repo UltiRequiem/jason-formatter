@@ -8,11 +8,11 @@
     "url": "git+https://github.com/UltiRequiem/json-formatter.git"
   },
   "scripts": {
-    "format": "npx prettier --write '**/**/*.js'",
+    "format": "npx prettier --write '**/*.js'",
     "lint": "npx eslint . --ext .js"
   },
   "bin": {
-    "jason": "./bin/jason"
+    "jason": "src/cli.js"
   },
   "keywords": [
     "json",
