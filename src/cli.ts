@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 import fs from 'fs/promises'
 
 import jason from '.'
@@ -22,10 +20,10 @@ async function writeFile(file: string, config: Config) {
 }
 
 /** Init Function: Start the process */
-async function main() {
+async function main(): Promise<void> {
   await writeFile(process.argv[2], {
     tabs: parseInt(process.argv[3], 10) || 2
   })
 }
 
-main()
+export default main
