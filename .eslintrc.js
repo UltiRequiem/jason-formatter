@@ -8,15 +8,12 @@ module.exports = {
   ignorePatterns: ['node_modules', 'build'],
   parser: '@typescript-eslint/parser',
   plugins: ['@typescript-eslint'],
-  'import/resolver': {
-    node: {
-      extensions: ['.ts']
-    }
-  },
   extends: [
     'airbnb-base',
     'prettier',
     'eslint:recommended',
+    'plugin:import/recommended',
+    'plugin:import/typescript',
     'plugin:@typescript-eslint/eslint-recommended',
     'plugin:@typescript-eslint/recommended'
   ],
@@ -25,6 +22,14 @@ module.exports = {
     sourceType: 'module'
   },
   rules: {
-    quotes: ['warn', 'single', 'avoid-escape']
+    quotes: ['warn', 'single', 'avoid-escape'],
+    'no-console': 'off',
+    'import/extensions': [
+      'error',
+      'ignorePackages',
+      {
+        ts: 'never'
+      }
+    ]
   }
 }

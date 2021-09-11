@@ -12,7 +12,7 @@
     "lint": "npx eslint . --ext .js"
   },
   "bin": {
-    "jason": "src/cli.js"
+    "jason": "./build/src/cli.js"
   },
   "keywords": [
     "json",
