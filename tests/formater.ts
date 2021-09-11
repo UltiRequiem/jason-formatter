@@ -1,4 +1,5 @@
-const format = require('../src')
+import format from '../src'
+
 
 const rawData = `
 {

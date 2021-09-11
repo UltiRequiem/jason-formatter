@@ -41,9 +41,9 @@ jason config.json 4
 You can also import it in your code:
 
 ```javascript
-const format  = require('jason-formatter');
+const format = require('jason-formatter')
 
-console.log(format(rawData, { tabs: 2 }));
+console.log(format(rawData, { tabs: 2 }))
 ```
 
 You can see an example of use in [test/formatter.js](./tests/formater.js).
