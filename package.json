@@ -1,6 +1,6 @@
 {
   "name": "jason-formatter",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "A Command Line tool to format JSON",
   "main": "./build/src/index.js",
   "repository": {
