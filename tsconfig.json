@@ -3,13 +3,13 @@
     "module": "commonjs",
     "moduleResolution": "Node",
     "target": "ES2020",
-    "declaration": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "importHelpers": false,
     "skipLibCheck": true,
-    "outDir": "./build"
+    "outDir": "lib",
+    "declaration": true
   },
-  "include": ["src/*"]
+  "include": ["src/**/*"]
 }

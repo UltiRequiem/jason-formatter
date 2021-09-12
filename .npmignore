@@ -1,12 +1,15 @@
 # Relevant files
-!build/**
+!lib/**/**
 
 # Unrelevant files
 src/**
 .gitignore
 .github/
 yarn.lock
+prettier.config.js
+.eslintrc.js
 tsconfig.json
 *.gif
 *.md
-test/
+tests/
+assets/

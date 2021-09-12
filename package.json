@@ -2,8 +2,8 @@
   "name": "jason-formatter",
   "version": "1.4.1",
   "description": "A Command Line tool to format JSON",
-  "main": "./build/src/index.js",
-  "types": "./build/index.d.ts",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/UltiRequiem/json-formatter.git"
@@ -13,7 +13,7 @@
     "lint": "npx eslint . --ext .js"
   },
   "bin": {
-    "jason": "./build/src/jason.js"
+    "jason": "./lib/cli/bin.js"
   },
   "keywords": [
     "json",

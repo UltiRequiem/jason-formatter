@@ -1,7 +1,7 @@
 import fs from 'fs/promises'
 
-import jason from '.'
-import { Config } from './types'
+import jason from '..'
+import { Config } from '../types'
 import { print, error } from './helpers'
 
 /**

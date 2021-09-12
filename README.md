@@ -56,3 +56,20 @@ const rawData = `
 
 console.log(jason(rawData, { tabs: 2 }))
 ```
+
+Examples using ES6 or Typescript:
+
+```javascript
+import jason from 'jason-formatter'
+
+const rawData = `
+{
+
+  "hey":9   ,
+  "jason":true
+}
+
+`
+
+console.log(jason(rawData, { tabs: 2 }))
+```
