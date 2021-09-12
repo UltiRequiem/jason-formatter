@@ -1,0 +1,12 @@
+# Relevant files
+!build/**
+
+# Unrelevant files
+src/**
+.gitignore
+.github/
+yarn.lock
+tsconfig.json
+*.gif
+*.md
+test/

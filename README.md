@@ -38,12 +38,23 @@ By default, 2 tabs are used, but you can also specify how many tabs you want:
 jason config.json 4
 ```
 
-You can also import it in your code:
+Jason is also a library, so you can also import it in your code.
+
+Example using CommonJS:
 
 ```javascript
-const format = require('jason-formatter')
+const jason = require('jason-formatter').default
 
-console.log(format(rawData, { tabs: 2 }))
+const rawData = `
+{
+
+  "hey":9   ,
+  "jason":true
+}
+
+`
+
+console.log(jason(rawData, { tabs: 2 }))
 ```
 
 You can see an example of use in [test/formatter.js](./tests/formater.js).
