@@ -6,7 +6,7 @@
 ![CodeQL](https://github.com/UltiRequiem/jason-formatter/workflows/CodeQL/badge.svg)
 ![Eslint](https://github.com/UltiRequiem/jason-formatter/workflows/Eslint/badge.svg)
 
-A Command Line formatter for JSON files, zero dependencies.
+A simple [json](https://json.org) formmater.
 
 ![Cover](./assets/cover.png)
 
