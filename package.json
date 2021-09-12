@@ -1,6 +1,6 @@
 {
   "name": "jason-formatter",
-  "version": "1.4.1",
+  "version": "1.4.2",
   "description": "A Command Line tool to format JSON",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
@@ -29,7 +29,6 @@
   },
   "homepage": "https://github.com/UltiRequiem/json-formatter#readme",
   "devDependencies": {
-    "@types/colors": "^1.2.1",
     "@types/node": "^16.9.1",
     "@typescript-eslint/eslint-plugin": "^4.31.0",
     "@typescript-eslint/parser": "^4.31.0",

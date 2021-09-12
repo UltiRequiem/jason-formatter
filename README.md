@@ -10,6 +10,10 @@ A simple [json](https://json.org) formmater.
 
 ![Cover](./assets/cover.png)
 
+## TODO
+
+Return this library to JavaScript, not so many benefits and a lot of disadvantages.
+
 ## Installation
 
 To be able to use it in your entire system you have to install globally:
