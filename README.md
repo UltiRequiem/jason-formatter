@@ -56,5 +56,3 @@ const rawData = `
 
 console.log(jason(rawData, { tabs: 2 }))
 ```
-
-You can see an example of use in [test/formatter.js](./tests/formater.js).
