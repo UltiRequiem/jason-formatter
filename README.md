@@ -1,4 +1,4 @@
-# Jason
+# Jason Formatter
 
 [![GitMoji](https://img.shields.io/badge/Gitmoji-%F0%9F%8E%A8%20-FFDD67.svg)](https://gitmoji.dev)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
@@ -6,29 +6,25 @@
 ![CodeQL](https://github.com/UltiRequiem/jason-formatter/workflows/CodeQL/badge.svg)
 ![Eslint](https://github.com/UltiRequiem/jason-formatter/workflows/Eslint/badge.svg)
 
-A simple [json](https://json.org) formmater.
+A simple [json](https://json.org) formatter.
 
 ![Cover](./assets/cover.png)
-
-## TODO
-
-Return this library to JavaScript, not so many benefits and a lot of disadvantages.
 
 ## Installation
 
 To be able to use it in your entire system you have to install globally:
 
 ```bash
-npm i -g jason
+npm i -g jason-formatter
 ```
 
 If you use yarn:
 
 ```bash
-yarn global add jason
+yarn global add jason-formatter
 ```
 
-## Usage
+## CLI Tool Usage
 
 Now you can use it anywhere on your system:
 
@@ -42,26 +38,9 @@ By default, 2 tabs are used, but you can also specify how many tabs you want:
 jason config.json 4
 ```
 
-Jason is also a library, so you can also import it in your code.
+## Library
 
-Example using CommonJS:
-
-```javascript
-const jason = require('jason-formatter').default
-
-const rawData = `
-{
-
-  "hey":9   ,
-  "jason":true
-}
-
-`
-
-console.log(jason(rawData, { tabs: 2 }))
-```
-
-Examples using ES6 or Typescript:
+Jason is also a library, so you can also import it in your code:
 
 ```javascript
 import jason from 'jason-formatter'
@@ -77,3 +56,7 @@ const rawData = `
 
 console.log(jason(rawData, { tabs: 2 }))
 ```
+
+## License
+
+This project is licensed under the [MIT License](./LICENSE.md).

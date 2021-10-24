@@ -11,19 +11,15 @@ import { print, error } from './helpers'
  * @param config - The configuration
  */
 async function writeFile(file: string, config: Config) {
-  if (!file) {
-    error('You have to pass a file!')
-  }
+  if (!file) error('You have to pass a file!')
 
   await fs.writeFile(file, jason(await fs.readFile(file, 'utf-8'), config))
   print('JSON Formatted :)')
 }
 
 /** Init Function: Start the process */
-async function main(): Promise<void> {
+export default async function main(): Promise<void> {
   await writeFile(process.argv[2], {
     tabs: parseInt(process.argv[3], 10) || 2
   })
 }
-
-export default main

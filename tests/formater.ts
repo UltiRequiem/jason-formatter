@@ -1,6 +1,5 @@
 import format from '../src'
 
-
 const rawData = `
 {
 

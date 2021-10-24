@@ -6,8 +6,6 @@ import { Config } from './types'
  * @param text - The JSON to format
  * @param config - The configuration
  */
-function jason(text: string, config: Config): string {
-  return JSON.stringify(JSON.parse(text), null, config.tabs || 2)
+export default function jason(text: string, config: Config): string {
+  return JSON.stringify(JSON.parse(text), null, config?.tabs || 2)
 }
-
-export default jason
