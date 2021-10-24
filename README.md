@@ -6,9 +6,9 @@
 ![CodeQL](https://github.com/UltiRequiem/jason-formatter/workflows/CodeQL/badge.svg)
 ![Eslint](https://github.com/UltiRequiem/jason-formatter/workflows/Eslint/badge.svg)
 
-A simple [json](https://json.org) formatter.
-
 ![Cover](./assets/cover.png)
+
+A simple [json](https://json.org) formatter.
 
 ## Installation
 
