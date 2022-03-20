@@ -1,7 +1,6 @@
 import fs from 'fs/promises'
 
 import jason from '..'
-import { Config } from '../types'
 import { print, error } from './helpers'
 
 /**
@@ -10,7 +9,7 @@ import { print, error } from './helpers'
  * @param file - The file to be formatted
  * @param config - The configuration
  */
-async function writeFile(file: string, config: Config) {
+async function writeFile(file: string, config = {}) {
   if (!file) error('You have to pass a file!')
 
   await fs.writeFile(file, jason(await fs.readFile(file, 'utf-8'), config))
