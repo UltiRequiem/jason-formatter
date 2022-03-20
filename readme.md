@@ -1,18 +1,20 @@
+# REWRITING ON PROGRESS
+
 # Jason Formatter
 
 A simple [json](https://json.org) formatter.
 
-## Installation
+## CLI
 
-To be able to use it in your entire system you have to install globally:
+### Installation
 
-```bash
-npm install -global jason-formatter
+- [Node.js](https://nodejs.org/en)
+
+```sh
+npm install -g ranmess
 ```
 
-## CLI Tool Usage
-
-Now you can use it anywhere on your system:
+### Usage
 
 ```bash
 jason config.json
@@ -29,20 +31,24 @@ jason config.json 4
 Jason is also a library, so you can also import it in your code:
 
 ```javascript
-import jason from 'jason-formatter'
+import jason from "jason-formatter";
 
-const rawData = `
-{
+const rawData = "{"hey":9,"jason":true}";
 
-  "hey":9   ,
-  "jason":true
-}
-
-`
-
-console.log(jason(rawData, { tabs: 2 }))
+console.log(jason(rawData, { tabs: 2 }));
 ```
 
-## License
+## Support
 
-This project is licensed under the [MIT License](./LICENSE.md).
+Open an Issue, I will check it a soon as possible 👀
+
+If you want to hurry me up a bit
+[send me a tweet](https://twitter.com/intent/tweet?text=%40UltiRequiem%20) 😆
+
+Consider [supporting me on Patreon](https://patreon.com/UltiRequiem) if you like my work 🚀
+
+Don't forget to start the repo ⭐
+
+## Licence
+
+Licensed under the MIT License.
