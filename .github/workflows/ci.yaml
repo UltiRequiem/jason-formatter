@@ -4,8 +4,8 @@ on: [push, pull_request]
 
 jobs:
   build:
-    name: Test ($)
-    runs-on: $
+    name: Test (${{ matrix.os }})
+    runs-on: ${{ matrix.os }}
     strategy:
       matrix:
         os: [ubuntu-latest, windows-latest, macOS-latest]
