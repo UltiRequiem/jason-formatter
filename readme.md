@@ -8,7 +8,7 @@
 ![Custom badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fdeno-visualizer.danopia.net%2Fshields%2Fupdates%2Fx%2Fjason_formatter%2Fmod.ts)
 [![Custom badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fdeno-visualizer.danopia.net%2Fshields%2Flatest-version%2Fx%2Fjason_formatter%2Fmod.ts)](https://deno.land/x/jason_formatter)
 
-A simple [json](https://json.org) formatter.
+A simple [JSON](https://json.org) formatter.
 
 ## CLI
 
