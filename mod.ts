@@ -6,6 +6,8 @@ export type JasonConfig = { tabs?: number };
  *
  * @returns The formatted JSON.
  */
-export function jason(text: string, config?: JasonConfig): string {
-  return JSON.stringify(JSON.parse(text), null, config?.tabs ?? 2);
+export function jason(text: string, config: JasonConfig = {}): string {
+  const { tabs = 2 } = config;
+
+  return JSON.stringify(JSON.parse(text), null, tabs);
 }
