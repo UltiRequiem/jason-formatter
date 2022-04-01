@@ -1,12 +1,7 @@
 # Jason Formatter
 
-[![CI](https://github.com/UltiRequiem/jason-formatter/actions/workflows/ci.yaml/badge.svg)](https://github.com/UltiRequiem/jason-formatter/actions/workflows/ci.yaml)
 [![codecov](https://codecov.io/gh/ultirequiem/jason-formatter/branch/main/graph/badge.svg)](https://codecov.io/gh/ultirequiem/jason-formatter)
 [![deno doc](https://doc.deno.land/badge.svg)](https://doc.deno.land/https/deno.land/x/jason_formatter/mod.ts)
-
-![Custom badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fdeno-visualizer.danopia.net%2Fshields%2Fdep-count%2Fx%2Fjason_formatter%2Fmod.ts)
-![Custom badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fdeno-visualizer.danopia.net%2Fshields%2Fupdates%2Fx%2Fjason_formatter%2Fmod.ts)
-[![Custom badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fdeno-visualizer.danopia.net%2Fshields%2Flatest-version%2Fx%2Fjason_formatter%2Fmod.ts)](https://deno.land/x/jason_formatter)
 
 A simple [JSON](https://json.org) formatter.
 
