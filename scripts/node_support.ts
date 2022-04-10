@@ -15,5 +15,5 @@ buildPackage(
       "./mod.ts",
       { path: "./jason.ts", name: "jason", kind: "bin" },
     ],
-  }
+  },
 );
