@@ -33,6 +33,8 @@ By default, 2 tabs are used, to specify how many tabs you want 👇
 jason config.json --tabs 4 # same as -t 4
 ```
 
+[Video Showcase 📷](https://youtu.be/2dfXYhPswv0)
+
 ## Usage
 
 The API is the same on all this platforms ✔️

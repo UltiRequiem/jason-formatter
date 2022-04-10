@@ -25,7 +25,9 @@ async function jasonFile(file: string) {
   try {
     formatted = jason(text, { tabs });
   } catch (e) {
-    console.log(colors.red(`${file} is not valid JSON!`));
+    console.log(
+      colors.red(`The file "${colors.red(file)}" is not valid JSON!`),
+    );
     process.fail++;
     return;
   }

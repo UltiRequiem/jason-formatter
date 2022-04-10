@@ -5,5 +5,5 @@ buildPackage({
   description: "Shell utility and Library for formatting JSON files",
   homepage: "https://jason.js.org",
   keywords: ["json", "formatter"],
-  version: "2.1.0",
+  version: "2.2.0",
 });
