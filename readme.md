@@ -12,7 +12,7 @@ A simple [JSON](https://json.org) formatter.
 - **Deno 🎃**
 
 ```sh
-deno install --allow-read --allow-write https://deno.land/x/jason_formatter/jason.ts
+deno install --unstable --allow-read --allow-write https://deno.land/x/jason_formatter/jason.ts
 ```
 
 - **Node.js 🐼**
