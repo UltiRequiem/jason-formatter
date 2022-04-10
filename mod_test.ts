@@ -18,7 +18,8 @@ Deno.test("Formats correctly.", () => {
   const expectedResult = `{
   "name": "Jason",
   "age": "25"
-}`;
+}
+`;
 
   const result = jason(data);
 

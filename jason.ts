@@ -15,10 +15,24 @@ const {
   options: { tabs, verbose },
 } = await root.parse(Deno.args);
 
+const process = { success: 0, fail: 0 };
+
 async function jasonFile(file: string) {
   const text = await Deno.readTextFile(file);
-  const formatted = jason(text, { tabs });
+
+  let formatted;
+
+  try {
+    formatted = jason(text, { tabs });
+  } catch (e) {
+    console.log(colors.red(`${file} is not valid JSON!`));
+    process.fail++;
+    return;
+  }
+
   await Deno.writeTextFile(file, formatted);
+
+  process.success++;
 
   if (verbose) {
     console.log(colors.green(`The file "${colors.blue(file)}" was formatted.`));
@@ -29,4 +43,9 @@ await Promise.all(files.map(jasonFile));
 
 if (verbose) {
   console.log(colors.green("Done!"));
+  console.log(
+    colors.cyan(
+      `${process.success} files were formatted successfully, ${process.fail} failed.`
+    )
+  );
 }
