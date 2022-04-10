@@ -45,7 +45,7 @@ if (verbose) {
   console.log(colors.green("Done!"));
   console.log(
     colors.cyan(
-      `${process.success} files were formatted successfully, ${process.fail} failed.`
-    )
+      `${process.success} files were formatted successfully, ${process.fail} failed.`,
+    ),
   );
 }

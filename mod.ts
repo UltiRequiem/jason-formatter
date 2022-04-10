@@ -9,5 +9,5 @@ export type JasonConfig = { tabs?: number };
 export function jason(text: string, config: JasonConfig = {}): string {
   const { tabs = 2 } = config;
 
-  return JSON.stringify(JSON.parse(text), null, tabs) + '\n';
+  return JSON.stringify(JSON.parse(text), null, tabs) + "\n";
 }
