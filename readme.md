@@ -1,7 +1,7 @@
 # Jason Formatter
 
-[![codecov](https://codecov.io/gh/ultirequiem/jason-formatter/branch/main/graph/badge.svg)](https://codecov.io/gh/ultirequiem/jason-formatter)
-[![deno doc](https://doc.deno.land/badge.svg)](https://doc.deno.land/https/deno.land/x/jason_formatter/mod.ts)
+[![Code Coverage](https://codecov.io/gh/ultirequiem/jason-formatter/branch/main/graph/badge.svg)](https://codecov.io/gh/ultirequiem/jason-formatter)
+[![Deno Doc](https://doc.deno.land/badge.svg)](https://doc.deno.land/https/deno.land/x/jason_formatter/mod.ts)
 
 A simple [JSON](https://json.org) formatter.
 
