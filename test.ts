@@ -3,7 +3,7 @@ import { jason } from "./mod.ts";
 import {
   assertEquals,
   assertNotEquals,
-} from "https://deno.land/std@0.158.0/testing/asserts.ts";
+} from "https://deno.land/std@0.161.0/testing/asserts.ts";
 
 Deno.test("Formats correctly.", () => {
   const data = `
