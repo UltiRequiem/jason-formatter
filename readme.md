@@ -9,7 +9,7 @@ A simple [JSON](https://json.org) formatter.
 
 ## Usage
 
-ESM only: the same import works in Node.js, Bun and browsers.
+ESM only, types included: the same import works in Node.js, Bun and browsers.
 
 ```typescript
 import { jason } from "jason-formatter";
