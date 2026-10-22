@@ -1,6 +1,6 @@
 # Jason Formatter
 
-A simple [JSON](https://json.org) formatter.
+A small, fast JSON formatter.
 
 [![npm](https://img.shields.io/npm/v/jason-formatter?logo=npm&color=cb3837)](https://www.npmjs.com/package/jason-formatter)
 [![npm downloads](https://img.shields.io/npm/dm/jason-formatter?color=cb3837)](https://www.npmjs.com/package/jason-formatter)
