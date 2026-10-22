@@ -1,6 +1,9 @@
 # Jason Formatter
 
-[![Code Coverage](https://codecov.io/gh/ultirequiem/jason-formatter/branch/main/graph/badge.svg)](https://codecov.io/gh/ultirequiem/jason-formatter)
+[![npm](https://img.shields.io/npm/v/jason-formatter?logo=npm&color=cb3837)](https://www.npmjs.com/package/jason-formatter)
+[![npm downloads](https://img.shields.io/npm/dm/jason-formatter?color=cb3837)](https://www.npmjs.com/package/jason-formatter)
+[![CI](https://github.com/UltiRequiem/jason-formatter/actions/workflows/ci.yaml/badge.svg)](https://github.com/UltiRequiem/jason-formatter/actions/workflows/ci.yaml)
+[![codecov](https://codecov.io/gh/UltiRequiem/jason-formatter/graph/badge.svg)](https://codecov.io/gh/UltiRequiem/jason-formatter)
 
 A simple [JSON](https://json.org) formatter.
 
@@ -36,7 +39,7 @@ jason config.json --tabs 4 # same as -t 4
 
 ## Usage
 
-The API is the same on all this platforms ✔️
+The API is the same on all these platforms ✔️
 
 ### [Node.js 🐢🚀](https://npmjs.com/package/jason-formatter)
 
@@ -76,7 +79,7 @@ It's basically a wrapper around
 
 ## Support
 
-Open an Issue, I will check it a soon as possible 👀
+Open an Issue, I will check it as soon as possible 👀
 
 If you want to hurry me up a bit
 [send me a tweet](https://twitter.com/UltiRequiem) 😆
