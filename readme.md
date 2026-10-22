@@ -1,11 +1,11 @@
 # Jason Formatter
 
+A simple [JSON](https://json.org) formatter.
+
 [![npm](https://img.shields.io/npm/v/jason-formatter?logo=npm&color=cb3837)](https://www.npmjs.com/package/jason-formatter)
 [![npm downloads](https://img.shields.io/npm/dm/jason-formatter?color=cb3837)](https://www.npmjs.com/package/jason-formatter)
 [![CI](https://github.com/UltiRequiem/jason-formatter/actions/workflows/ci.yaml/badge.svg)](https://github.com/UltiRequiem/jason-formatter/actions/workflows/ci.yaml)
 [![codecov](https://codecov.io/gh/UltiRequiem/jason-formatter/graph/badge.svg)](https://codecov.io/gh/UltiRequiem/jason-formatter)
-
-A simple [JSON](https://json.org) formatter.
 
 ## Usage
 
