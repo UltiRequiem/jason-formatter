@@ -9,9 +9,7 @@ A simple [JSON](https://json.org) formatter.
 
 ## Usage
 
-The API is the same on all these platforms ✔️
-
-### [Node.js 🐢🚀](https://npmjs.com/package/jason-formatter)
+ESM only: the same import works in Node.js, Bun and browsers.
 
 ```typescript
 import { jason } from "jason-formatter";
@@ -22,16 +20,6 @@ jason(data); /* {
   "nick": 9
 }*/
 ```
-
-### [Browser 🌐](https://developer.mozilla.org/en-US/docs/Glossary/Browser)
-
-You can use any [CDN](https://en.wikipedia.org/wiki/Content_delivery_network) 🔥
-
-Eg 👉
-[ESM](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules) ↔️
-[SkyPack](https://cdn.skypack.dev/jason-formatter) 🆚
-[Script Tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script)
-↔️ [JSDelivr](https://cdn.jsdelivr.net/npm/jason-formatter)
 
 ## Note
 
