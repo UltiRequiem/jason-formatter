@@ -7,36 +7,6 @@
 
 A simple [JSON](https://json.org) formatter.
 
-## CLI
-
-### Install
-
-- **Deno 🎃**
-
-```sh
-deno install --unstable --allow-read --allow-write https://deno.land/x/jason_formatter/jason.ts
-```
-
-- **Node.js 🐼**
-
-```sh
-npm install --global jason-formatter
-```
-
-### Usage
-
-```bash
-jason config.json
-```
-
-By default, 2 tabs are used, to specify how many tabs you want 👇
-
-```bash
-jason config.json --tabs 4 # same as -t 4
-```
-
-[Video Showcase 📷](https://youtu.be/2dfXYhPswv0)
-
 ## Usage
 
 The API is the same on all these platforms ✔️
@@ -63,15 +33,7 @@ Eg 👉
 [Script Tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script)
 ↔️ [JSDelivr](https://cdn.jsdelivr.net/npm/jason-formatter)
 
-## Documentation
-
-Is hosted on
-[Deno Doc](https://doc.deno.land/https://deno.land/x/jason_formatter/mod.ts) 📄
-
 ## Note
-
-I did this while learning TypeScript long time ago, It was originally written
-for Node.js but I'm porting most of my packages to Deno.
 
 It's basically a wrapper around
 [JSON.stringify](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify)
