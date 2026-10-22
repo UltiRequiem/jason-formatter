@@ -1,7 +1,6 @@
 # Jason Formatter
 
 [![Code Coverage](https://codecov.io/gh/ultirequiem/jason-formatter/branch/main/graph/badge.svg)](https://codecov.io/gh/ultirequiem/jason-formatter)
-[![Deno Doc](https://doc.deno.land/badge.svg)](https://doc.deno.land/https/deno.land/x/jason_formatter/mod.ts)
 
 A simple [JSON](https://json.org) formatter.
 
@@ -39,22 +38,16 @@ jason config.json --tabs 4 # same as -t 4
 
 The API is the same on all this platforms ✔️
 
-### [Deno 🦕](https://deno.land/x/jason_formatter)
+### [Node.js 🐢🚀](https://npmjs.com/package/jason-formatter)
 
 ```typescript
-import { jason } from "https://deno.land/x/jason_formatter/mod.ts";
+import { jason } from "jason-formatter";
 
 const data = `{"nick":9}`;
 
 jason(data); /* {
   "nick": 9
 }*/
-```
-
-### [Node.js 🐢🚀](https://npmjs.com/package/jason-formatter)
-
-```ts
-import { jason } from "jason-formatter";
 ```
 
 ### [Browser 🌐](https://developer.mozilla.org/en-US/docs/Glossary/Browser)
@@ -87,9 +80,6 @@ Open an Issue, I will check it a soon as possible 👀
 
 If you want to hurry me up a bit
 [send me a tweet](https://twitter.com/UltiRequiem) 😆
-
-Consider [supporting me on Patreon](https://patreon.com/UltiRequiem) if you like
-my work 🙏
 
 Don't forget to star the repo ⭐
 
